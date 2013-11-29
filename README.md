@@ -1,2 +1,2 @@
-csharp-seminar-demo
+C# Seminar Demos
 ===================
