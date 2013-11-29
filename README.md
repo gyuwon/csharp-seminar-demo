@@ -13,6 +13,8 @@ C# Seminar Demos
   1. [Explicit implementation](http://dotnetfiddle.net/DViv91)
 
 ## v 2.0 ##
+* Generic
+  1. [Sorting performance - ArrayList vs. List&lt;int&gt;](http://dotnetfiddle.net/DhyJvj)
 * Anonymouse methods
   1. [Parent's scope](http://dotnetfiddle.net/tKpcI1)
   2. [Closure implementation model](http://dotnetfiddle.net/6vMeO0)
