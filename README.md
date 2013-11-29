@@ -3,7 +3,7 @@ C# Seminar Demos
 
 ## v 1.0 ##
 * Value-Types
-  1. Value-type method call performance ([fiddle](http://dotnetfiddle.net/bk0Zq2))
+  1. Value-type method call performance ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/ValueType/Performance/Program.cs), [fiddle](http://dotnetfiddle.net/bk0Zq2))
 * Delegates
   1. Performance ([fiddle](http://dotnetfiddle.net/FlOcgw))
 * Events
