@@ -8,6 +8,6 @@ C# Seminar Demos
   1. [Performance](http://dotnetfiddle.net/FlOcgw)
 * Events
   1. [Reference to the subscriber](http://dotnetfiddle.net/geOyPh)
-  2. [Weak event subscription](http://dotnetfiddle.net/BiimpJ)
+  2. [Weak event subscription](http://dotnetfiddle.net/hIBscu)
 * Interfaces
   1. [Explicit implementation](http://dotnetfiddle.net/DViv91)
