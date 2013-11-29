@@ -9,3 +9,5 @@ C# Seminar Demos
 * Events
   1. [Reference to the subscriber](http://dotnetfiddle.net/geOyPh)
   2. [Weak event subscription](http://dotnetfiddle.net/BiimpJ)
+* Interfaces
+  1. [Explicit implementation](http://dotnetfiddle.net/DViv91)
