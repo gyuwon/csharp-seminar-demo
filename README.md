@@ -22,3 +22,7 @@ C# Seminar Demos
 * Iterators
   1. Arithmetic progression ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/Iterators/Progression/Program.cs), [fiddle](http://dotnetfiddle.net/FbUOAo))
   2. Delayed execution ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/Iterators/DelayedExecution/Program.cs), [fiddle](http://dotnetfiddle.net/Tr5TwA))
+
+## v 3.0 ##
+* Anonymous Types
+  1. Generic collections of anonymously typed elements ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/AnonymousTypes/GenericCollections/Program.cs), [fiddle](http://dotnetfiddle.net/6RkjAF))
