@@ -19,3 +19,5 @@ C# Seminar Demos
   1. [Parent's scope](http://dotnetfiddle.net/tKpcI1)
   2. [Closure implementation model](http://dotnetfiddle.net/6vMeO0)
   3. [Loop](http://dotnetfiddle.net/cHrlBj)
+* Iterators
+  1. [Arithmetic progression](http://dotnetfiddle.net/FbUOAo)
