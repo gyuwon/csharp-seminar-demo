@@ -6,11 +6,6 @@ namespace CustomQueryExpression
 {
     public static class Program
     {
-        public static string Where(this string[] s, Func<string, bool> predicate)
-        {
-            return "Where?";
-        }
-
         static void Main(string[] args)
         {
             string[] array = { "Ironman", "Hulk", "Thor" };
@@ -27,6 +22,11 @@ namespace CustomQueryExpression
                      select a;
             foreach (var e in q2)
                 Console.WriteLine(e);
+        }
+
+        public static string Where(this string[] s, Func<string, bool> predicate)
+        {
+            return "Where?";
         }
     }
 }
