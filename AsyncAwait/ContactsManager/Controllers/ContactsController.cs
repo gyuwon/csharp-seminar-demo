@@ -21,9 +21,9 @@ namespace ContactsManager.Controllers
         }
 
         // GET api/Contacts/5
-        public Contact GetContact(Int32 id)
+        async public Task<Contact> GetContact(Int32 id)
         {
-            Contact contact = db.Contact.Find(id);
+            Contact contact = await db.Contact.FindAsync(id);
             if (contact == null)
             {
                 throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));
