@@ -21,9 +21,10 @@ namespace ContactsManager.Controllers
         }
 
         // GET api/Contacts
-        public IEnumerable<Contact> GetContact()
+        [Queryable]
+        public IQueryable<Contact> GetContact()
         {
-            return db.Contacts.AsEnumerable();
+            return db.Contacts;
         }
 
         // GET api/Contacts/5
