@@ -149,6 +149,5 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
-/v5.0/AsyncAwait/packages
-/v3.0/Linq/ContactsService/App_Data
-/v3.0/Linq/packages
+/Linq/ContactsManager/App_Data
+/Linq/packages
