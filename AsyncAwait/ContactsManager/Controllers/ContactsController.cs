@@ -1,12 +1,10 @@
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
-using System.Web;
+using System.Threading.Tasks;
 using System.Web.Http;
 using ContactsManager.Models;
 
@@ -17,9 +15,9 @@ namespace ContactsManager.Controllers
         private ContactsManagerContext db = new ContactsManagerContext();
 
         // GET api/Contacts
-        public IEnumerable<Contact> GetContact()
+        public Task<List<Contact>> GetContact()
         {
-            return db.Contact.AsEnumerable();
+            return db.Contact.ToListAsync();
         }
 
         // GET api/Contacts/5
