@@ -85,5 +85,10 @@ namespace AsyncManner
                     this._contacts.Add(c); 
             }
         }
+
+        private void OnClearClick(object sender, RoutedEventArgs e)
+        {
+            this._contacts.Clear();
+        }
     }
 }

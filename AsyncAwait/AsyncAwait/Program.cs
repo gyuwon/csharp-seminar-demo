@@ -10,12 +10,12 @@ namespace AsyncAwait
         {
             IRemoteService rs = new FakeRemoteService();
             int key = 3;
-            ConventionalCall(rs, key);
+            BlockingCall(rs, key);
             UsingTask(rs, key).Wait();
             UsingAwait(rs, key).Wait();
         }
 
-        static void ConventionalCall(IRemoteService rs, int key)
+        static void BlockingCall(IRemoteService rs, int key)
         {
             int x = rs.Compute(rs.Get(key));
             Console.WriteLine(x);
@@ -50,8 +50,7 @@ namespace AsyncAwait
 
         public int Get(int key)
         {
-            Thread.Sleep(delay);
-            return key;
+            return this.GetAsync(key).Result;
         }
 
         public Task<int> GetAsync(int key)

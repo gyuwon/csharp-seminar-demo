@@ -22,6 +22,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel Height="50" Orientation="Horizontal">
+            <Button Content="Clear" Width="150" Click="OnClearClick"/>
             <Button Content="Load" Width="150" Click="OnLoadClick"/>
             <Button Content="Load async" Width="150" Click="OnLoadAsyncClick"/>
         </StackPanel>
