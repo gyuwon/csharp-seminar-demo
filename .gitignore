@@ -151,3 +151,4 @@ $RECYCLE.BIN/
 .DS_Store
 /Linq/ContactsManager/App_Data
 /Linq/packages
+/AsyncAwait/packages
