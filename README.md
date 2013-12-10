@@ -33,3 +33,7 @@ C# Seminar Demos
   2. Count() vs. Any() ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/Linq/CountVsAny/Program.cs), [fiddle](http://dotnetfiddle.net/rr8jfR))
   3. IQueryable ([source](https://github.com/gyuwon/csharp-seminar-demos/tree/queryable/Linq/ContactsManager))
   4. OData ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/odata/Linq/ContactsManager/Controllers/ContactsController.cs))
+
+## v 5.0 ##
+* async-await
+  3. Non-blocking Web API ([blocking](https://github.com/gyuwon/csharp-seminar-demos/blob/blocking-api/AsyncAwait/ContactsManager/Controllers/ContactsController.cs))
