@@ -30,7 +30,7 @@ C# Seminar Demos
   1. Generic collections of anonymously typed elements ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/AnonymousTypes/GenericCollections/Program.cs), [fiddle](http://dotnetfiddle.net/gGA925))
 * Linq
   1. Query Expression vs. Fluent Api ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/Linq/FluentApiVsQueryExpression/Program.cs). [fiddle1](http://dotnetfiddle.net/L3SuRv), [fiddle2](http://dotnetfiddle.net/Am5ese))
-  2. Count() vs. Any() ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/Linq/CountVsAny/Program.cs), [fiddle](http://dotnetfiddle.net/rGDJzp))
+  2. Count() vs. Any() ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/Linq/CountVsAny/Program.cs), [fiddle](http://dotnetfiddle.net/VcxB9z))
   3. IQueryable ([source](https://github.com/gyuwon/csharp-seminar-demos/tree/queryable/Linq/ContactsManager))
   4. OData ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/odata/Linq/ContactsManager/Controllers/ContactsController.cs))
 
