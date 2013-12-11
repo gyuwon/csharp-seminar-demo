@@ -34,6 +34,10 @@ C# Seminar Demos
   3. IQueryable ([source](https://github.com/gyuwon/csharp-seminar-demos/tree/queryable/Linq/ContactsManager))
   4. OData ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/odata/Linq/ContactsManager/Controllers/ContactsController.cs))
 
+## v 4.0 ##
+* Dynamic
+  1. Dynamic Binding of the Statically Typed Objects ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/Dynamic/StaticallyTypedObject/Program.cs))
+
 ## v 5.0 ##
 * async-await
   1. "await"
