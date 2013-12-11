@@ -53,10 +53,12 @@ namespace Covariance
                     DotNetLanguage = languages[random.Next(languages.Length)]
                 };
 
-            WriteLanguages(dotNetProgrammers);
+            // You don't need to do like this anymore.
+            // - PrintLanguages(dotNetProgrammers.OfType<Programmer>());
+            PrintLanguages(dotNetProgrammers);
         }
 
-        static void WriteLanguages(IEnumerable<Programmer> programmers)
+        static void PrintLanguages(IEnumerable<Programmer> programmers)
         {
             foreach (var programmer in programmers)
             {
