@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Dynamic;
+using System.Xml.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -22,19 +23,13 @@ namespace ExpandoObjectClass
                 LastName = "Stark",
                 Email = "ironman@avengers.com"
             };
-            Console.WriteLine(JsonConvert.SerializeObject(contact1));
+            Console.WriteLine(JsonConvert.SerializeObject(contact1, Formatting.Indented));
 
-            JObject contact2 = new JObject();
-            contact2["FirstName"] = "Bruce";
-            contact2["LastName"] = "Banner";
-            contact2["Email"] = "hulk@avengers.com";
-            Console.WriteLine(JsonConvert.SerializeObject(contact2));
-
-            dynamic contact3 = new ExpandoObject();
-            contact3.FirstName = "Thor";
-            contact3.LastName = "Odinson";
-            contact3.Email = "thor@avengers.com";
-            Console.WriteLine(JsonConvert.SerializeObject(contact3));
+            dynamic contact2 = new ExpandoObject();
+            contact2.FirstName = "Bruce";
+            contact2.LastName = "Banner";
+            contact2.Email = "hulk@avengers.com";
+            Console.WriteLine(JsonConvert.SerializeObject(contact2, Formatting.Indented));
         }
     }
 }
