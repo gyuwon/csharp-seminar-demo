@@ -37,6 +37,7 @@ C# Seminar Demos
 ## v 4.0 ##
 * Dynamic
   1. Dynamic Binding of the Statically Typed Objects ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/Dynamic/StaticallyTypedObject/Program.cs))
+  2. ExpandoObject ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/Dynamic/ExpandoObjectClass/Program.cs))
 
 ## v 5.0 ##
 * async-await
