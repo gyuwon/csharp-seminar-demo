@@ -16,19 +16,21 @@ namespace CountVsAny
 
         public static IEnumerable<string> Jedi()
         {
-            Console.WriteLine(1);
+            int n = 0;
+
+            Console.WriteLine(++n);
             yield return "Luke";
 
-            Console.WriteLine(2);
+            Console.WriteLine(++n);
             yield return "Yoda";
 
-            Console.WriteLine(3);
+            Console.WriteLine(++n);
             yield return "Qui-Gon";
 
-            Console.WriteLine(4);
+            Console.WriteLine(++n);
             yield return "Obiwan";
 
-            Console.WriteLine(5);
+            Console.WriteLine(++n);
             yield return "Windu";
         }
     }
