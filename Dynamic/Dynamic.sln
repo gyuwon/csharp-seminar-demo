@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticallyTypedObject", "StaticallyTypedObject\StaticallyTypedObject.csproj", "{D5E5EA2D-3380-4A1B-A19C-C2470B235D66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpandoObjectClass", "ExpandoObjectClass\ExpandoObjectClass.csproj", "{AB4198E4-9E2E-44C9-91BA-B7635539F28F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D5E5EA2D-3380-4A1B-A19C-C2470B235D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5E5EA2D-3380-4A1B-A19C-C2470B235D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5E5EA2D-3380-4A1B-A19C-C2470B235D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4198E4-9E2E-44C9-91BA-B7635539F28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4198E4-9E2E-44C9-91BA-B7635539F28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4198E4-9E2E-44C9-91BA-B7635539F28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4198E4-9E2E-44C9-91BA-B7635539F28F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
