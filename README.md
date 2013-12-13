@@ -39,6 +39,8 @@ C# Seminar Demos
 * Dynamic
   1. Dynamic Binding of the Statically Typed Objects ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/Dynamic/StaticallyTypedObject/Program.cs))
   2. ExpandoObject ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/Dynamic/ExpandoObjectClass/Program.cs))
+* Optional Arguments and Named Arguments
+  1. Optional Arguments and Named Arguments ([fiddle](http://dotnetfiddle.net/ZNO3Xh))
 * Covariance and Contravariance
   1. Covariance ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/CovarianceContravariance/Covariance/Program.cs), [fiddle](http://dotnetfiddle.net/LjEq47))
   2. Contravariance ([source](https://github.com/gyuwon/csharp-seminar-demos/blob/master/CovarianceContravariance/Contravariance/Program.cs), [fiddle](http://dotnetfiddle.net/7PXofE))
