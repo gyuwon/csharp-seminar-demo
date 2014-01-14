@@ -1,5 +1,7 @@
-C# Seminar Demos
-================
+#C# Seminar Demos
+
+### [The Evolution of C# Part-I](http://www.slideshare.net/gyuwonyi/the-evolution-of-c-parti)
+### [The Ecolution of C# Part-II](http://www.slideshare.net/gyuwonyi/the-evolution-of-c-partii)
 
 ## v 1.0 ##
 * Value-Types
