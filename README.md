@@ -2,6 +2,7 @@
 
 ### [The Evolution of C# Part-I](http://www.slideshare.net/gyuwonyi/the-evolution-of-c-parti)
 ### [The Ecolution of C# Part-II](http://www.slideshare.net/gyuwonyi/the-evolution-of-c-partii)
+### [Blog Post](http://justhackem.wordpress.com/2013/12/16/cshart-seminar/)
 
 ## v 1.0 ##
 * Value-Types
